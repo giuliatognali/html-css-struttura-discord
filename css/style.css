@@ -9,3 +9,62 @@ Reset
     padding: 0;
     box-sizing: border-box;
 }
+
+/* 
+------------------
+Debug
+------------------
+*/
+
+.debug .tag-line{
+    height: 400px;
+}
+
+/* 
+------------------
+Header
+------------------
+*/
+
+.header-top{
+    background-color: #add8e6;
+    display: flex;
+    justify-content: center;
+}
+.nav{
+    background-color: #daa520 ;
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin: 10px;
+    
+}
+.bottoni{
+    border: 1px dashed black;
+    padding: 10px;
+}
+
+.logo, .login{
+    width: 20%;
+}
+.link{
+    width: 60%;
+    text-align: center;
+}
+
+.header-bottom{
+    background-color: #00008b;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+.tag-line{
+    background-color: #ee82ee ;
+    width: 45%;
+    
+}
+/* 
+------------------
+Main
+------------------
+*/
